@@ -15,6 +15,11 @@ class GlobalTextStyle {
     fontSize: 20,
     fontWeight: FontWeight.w600,
   );
+  static TextStyle h2ColoredTextStyle = const TextStyle(
+    color: Color.fromARGB(255, 230, 22, 35),
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+  );
   static TextStyle bodyTextStyle = const TextStyle(
     color: Color.fromARGB(255, 245, 229, 251),
     fontSize: 16,
