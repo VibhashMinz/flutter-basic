@@ -25,4 +25,16 @@ class GlobalTextStyle {
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
+
+  static TextStyle body2TextStyle = const TextStyle(
+    color: Color.fromARGB(255, 249, 197, 183),
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle body3TextStyle = const TextStyle(
+    color: Color.fromARGB(255, 173, 247, 199),
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+  );
 }
